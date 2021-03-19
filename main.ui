@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>512</width>
-    <height>564</height>
+    <width>738</width>
+    <height>595</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>110</y>
+      <y>150</y>
       <width>71</width>
       <height>231</height>
      </rect>
@@ -90,7 +90,7 @@
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>60</y>
+      <y>100</y>
       <width>288</width>
       <height>51</height>
      </rect>
@@ -142,7 +142,7 @@
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>350</y>
+      <y>390</y>
       <width>71</width>
       <height>131</height>
      </rect>
@@ -183,7 +183,7 @@
    <widget class="QLabel" name="label_14">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>160</x>
       <y>10</y>
       <width>451</width>
       <height>41</height>
@@ -207,7 +207,7 @@
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>500</y>
+      <y>540</y>
       <width>89</width>
       <height>25</height>
      </rect>
@@ -216,11 +216,11 @@
      <string>Calcular</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="limpiar">
     <property name="geometry">
      <rect>
       <x>270</x>
-      <y>500</y>
+      <y>540</y>
       <width>89</width>
       <height>25</height>
      </rect>
@@ -233,7 +233,7 @@
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>350</y>
+      <y>390</y>
       <width>61</width>
       <height>131</height>
      </rect>
@@ -254,7 +254,7 @@
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>110</y>
+      <y>150</y>
       <width>291</width>
       <height>231</height>
      </rect>
@@ -269,13 +269,16 @@
      </item>
      <item row="0" column="1">
       <widget class="QLineEdit" name="d1">
+       <property name="text">
+        <string>5</string>
+       </property>
        <property name="placeholderText">
-        <string>d1</string>
+        <string>lo</string>
        </property>
       </widget>
      </item>
      <item row="2" column="0">
-      <widget class="QLineEdit" name="lineEdit_9">
+      <widget class="QLineEdit" name="teta3">
        <property name="text">
         <string>90</string>
        </property>
@@ -302,35 +305,38 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QLineEdit" name="lineEdit_6">
+      <widget class="QLineEdit" name="d2">
        <property name="text">
-        <string>0</string>
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>d2</string>
        </property>
       </widget>
      </item>
      <item row="1" column="3">
-      <widget class="QLineEdit" name="lineEdit_8">
+      <widget class="QLineEdit" name="alfa2">
        <property name="text">
         <string>90</string>
        </property>
       </widget>
      </item>
      <item row="0" column="3">
-      <widget class="QLineEdit" name="lineEdit_4">
+      <widget class="QLineEdit" name="alfa1">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="4" column="1">
-      <widget class="QLineEdit" name="lineEdit_18">
+      <widget class="QLineEdit" name="d5">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="4" column="2">
-      <widget class="QLineEdit" name="lineEdit_19">
+      <widget class="QLineEdit" name="a5">
        <property name="text">
         <string>0</string>
        </property>
@@ -344,7 +350,7 @@
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QLineEdit" name="lineEdit_5">
+      <widget class="QLineEdit" name="teta2">
        <property name="text">
         <string>90</string>
        </property>
@@ -354,56 +360,59 @@
       </widget>
      </item>
      <item row="2" column="3">
-      <widget class="QLineEdit" name="lineEdit_12">
+      <widget class="QLineEdit" name="alfa3">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="3" column="3">
-      <widget class="QLineEdit" name="lineEdit_16">
+      <widget class="QLineEdit" name="alfa4">
        <property name="text">
         <string>90</string>
        </property>
       </widget>
      </item>
      <item row="0" column="2">
-      <widget class="QLineEdit" name="lineEdit_3">
+      <widget class="QLineEdit" name="a1">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="3" column="2">
-      <widget class="QLineEdit" name="lineEdit_15">
+      <widget class="QLineEdit" name="a4">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QLineEdit" name="lineEdit_14">
+      <widget class="QLineEdit" name="d4">
        <property name="text">
-        <string>0</string>
+        <string>2</string>
+       </property>
+       <property name="placeholderText">
+        <string>d4</string>
        </property>
       </widget>
      </item>
      <item row="4" column="3">
-      <widget class="QLineEdit" name="lineEdit_20">
+      <widget class="QLineEdit" name="alfa5">
        <property name="text">
         <string>90</string>
        </property>
       </widget>
      </item>
      <item row="2" column="2">
-      <widget class="QLineEdit" name="lineEdit_11">
+      <widget class="QLineEdit" name="a3">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
-      <widget class="QLineEdit" name="lineEdit_7">
+      <widget class="QLineEdit" name="a2">
        <property name="text">
         <string>0</string>
        </property>
@@ -418,20 +427,23 @@
      </item>
      <item row="5" column="1">
       <widget class="QLineEdit" name="d6">
+       <property name="text">
+        <string>5</string>
+       </property>
        <property name="placeholderText">
-        <string>d6</string>
+        <string>l6</string>
        </property>
       </widget>
      </item>
      <item row="5" column="2">
-      <widget class="QLineEdit" name="lineEdit_23">
+      <widget class="QLineEdit" name="a6">
        <property name="text">
         <string>0</string>
        </property>
       </widget>
      </item>
      <item row="5" column="3">
-      <widget class="QLineEdit" name="lineEdit_24">
+      <widget class="QLineEdit" name="alfa6">
        <property name="text">
         <string>0</string>
        </property>
@@ -439,39 +451,69 @@
      </item>
     </layout>
    </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>591</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ingrese los valores de los parámetros de Denavit Hartenberg solicitados a continuación</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>100</y>
+      <width>271</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(robot.jpeg) 0 0 0 0 stretch stretch;
+</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <tabstops>
   <tabstop>teta1</tabstop>
   <tabstop>d1</tabstop>
-  <tabstop>lineEdit_3</tabstop>
-  <tabstop>lineEdit_4</tabstop>
-  <tabstop>lineEdit_5</tabstop>
-  <tabstop>lineEdit_6</tabstop>
-  <tabstop>lineEdit_7</tabstop>
-  <tabstop>lineEdit_8</tabstop>
-  <tabstop>lineEdit_9</tabstop>
+  <tabstop>a1</tabstop>
+  <tabstop>alfa1</tabstop>
+  <tabstop>teta2</tabstop>
+  <tabstop>d2</tabstop>
+  <tabstop>a2</tabstop>
+  <tabstop>alfa2</tabstop>
+  <tabstop>teta3</tabstop>
   <tabstop>d3</tabstop>
-  <tabstop>lineEdit_11</tabstop>
-  <tabstop>lineEdit_12</tabstop>
+  <tabstop>a3</tabstop>
+  <tabstop>alfa3</tabstop>
   <tabstop>teta4</tabstop>
-  <tabstop>lineEdit_14</tabstop>
-  <tabstop>lineEdit_15</tabstop>
-  <tabstop>lineEdit_16</tabstop>
+  <tabstop>d4</tabstop>
+  <tabstop>a4</tabstop>
+  <tabstop>alfa4</tabstop>
   <tabstop>teta5</tabstop>
-  <tabstop>lineEdit_18</tabstop>
-  <tabstop>lineEdit_19</tabstop>
-  <tabstop>lineEdit_20</tabstop>
+  <tabstop>d5</tabstop>
+  <tabstop>a5</tabstop>
+  <tabstop>alfa5</tabstop>
   <tabstop>teta6</tabstop>
   <tabstop>d6</tabstop>
-  <tabstop>lineEdit_23</tabstop>
-  <tabstop>lineEdit_24</tabstop>
+  <tabstop>a6</tabstop>
+  <tabstop>alfa6</tabstop>
   <tabstop>textEdit</tabstop>
   <tabstop>textEdit_3</tabstop>
   <tabstop>textEdit_2</tabstop>
   <tabstop>boton</tabstop>
-  <tabstop>pushButton</tabstop>
+  <tabstop>limpiar</tabstop>
  </tabstops>
  <resources/>
  <connections/>
